@@ -4,6 +4,8 @@
 
 .container{
     position: relative;
+    top: 0;
+    left: 0;
 }
 
 .allineamento{
@@ -19,6 +21,7 @@
     font-size: large;
 }
 
+/*inizio colori riquadri*/
 .verde{
     background-color: green;
 }
@@ -26,6 +29,8 @@
 .rosso{
     background-color: red;
 }
+/*fine colori riquadri*/
+
 
 .cuore-rosso{
     font-size: x-large;
@@ -36,6 +41,7 @@
     display: none;
 }
 
+/*reazione al mouse con comparizione cuore*/
 div:hover span{
     display: block;
 }
@@ -44,12 +50,14 @@ div {
     display: inline-block;
 }
 
+/*posizionamento in alto a destra*/
 .posizione-top-dx{
     position: absolute;
     top: 0;
     right: 0;
 }
 
+/*crea un margine in alto*/
 header{
     margin-bottom: 30px;
 }
